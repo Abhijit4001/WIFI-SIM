@@ -22,7 +22,7 @@ aiosqlite>=0.22.1
 redis>=4.5.0
 
 # CLI dependencies
-click>=8.0.0
+click>=8.4.2
 alembic>=1.10.0
 
 # Hardware interface dependencies
