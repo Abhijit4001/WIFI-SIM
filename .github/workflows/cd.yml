@@ -92,7 +92,7 @@ jobs:
         submodules: recursive
 
     - name: Set up kubectl
-      uses: azure/setup-kubectl@v3
+      uses: azure/setup-kubectl@v5
       with:
         version: 'v1.28.0'
 
@@ -140,7 +140,7 @@ jobs:
         submodules: recursive
 
     - name: Set up kubectl
-      uses: azure/setup-kubectl@v3
+      uses: azure/setup-kubectl@v5
       with:
         version: 'v1.28.0'
 
@@ -227,7 +227,7 @@ jobs:
       name: ${{ needs.pre-deployment.outputs.deploy_env }}
     steps:
     - name: Set up kubectl
-      uses: azure/setup-kubectl@v3
+      uses: azure/setup-kubectl@v5
       with:
         version: 'v1.28.0'
 
