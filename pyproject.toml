@@ -59,7 +59,7 @@ dependencies = [
     "aioredis>=2.0.0",
     
     # Neural networks and ML
-    "torch>=2.1.0",
+    "torch>=2.12.1",
     "torchvision>=0.16.0",
     "numpy>=1.24.0",
     "opencv-python>=4.8.0",
@@ -149,7 +149,7 @@ docs = [
 ]
 
 gpu = [
-    "torch>=2.1.0",
+    "torch>=2.12.1",
     "torchvision>=0.16.0",
     "nvidia-ml-py>=12.535.0",
 ]
